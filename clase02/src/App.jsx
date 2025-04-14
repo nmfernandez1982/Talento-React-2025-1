@@ -4,6 +4,8 @@ import ListaUsuarios from './Components/ListaUsuarios';
 import Saludo from './Components/Saludo';
 import Usuario from './Components/Usuario';
 import ListaProductos from './Components/ListaProductos';
+import Producto from './Components/Producto';
+
 
 
 function App() {
@@ -38,10 +40,14 @@ function App() {
     // <Saludo nombre="Julieta"/>
     // <Usuario info={usuario} />
 
-    <div>
-        <h1>Catalogo de productos</h1>
-        <ListaProductos productos={productos} />     
-    </div>
+    // <div>
+    //     <h1>Catalogo de productos</h1>
+    //     <ListaProductos productos={productos} />     
+    // </div>
+
+    <Producto nombre="Teclado" precio={50000}/>
+
+
 
   )
 }
