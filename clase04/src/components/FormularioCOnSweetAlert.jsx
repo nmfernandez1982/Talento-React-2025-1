@@ -16,7 +16,8 @@ function FormularioCOnSweetAlert() {
     e.preventDefault();
 
     // Valido Campos completos
-    if (nombre.trim() === '' || email.trim() === '' || mensaje.trim() === '') {
+    if (nombre.trim() === '' || email.trim() === '' || mensaje.trim() === '') 
+      {
       Swal.fire({
         icon: 'error',
         title: 'Campos incompletos',
