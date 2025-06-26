@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 
-
 const Card = styled.div`
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
@@ -9,11 +8,11 @@ const Card = styled.div`
   height: 100%;
   transition: transform 0.2s ease;
 
-    &:hover {
+  &:hover {
     transform: scale(1.03);
   }
 
-    img {
+  img {
     height: 150px;
     object-fit: contain;
     width: 100%;

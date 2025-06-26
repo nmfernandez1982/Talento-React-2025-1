@@ -2,8 +2,6 @@ import { useState } from 'react';
 import ProductoCard from './ProductoCard';
 import { FaSearch } from 'react-icons/fa';
 
-
-
 export default function Buscador({ productos }) 
 {
   const [busqueda, setBusqueda] = useState('');
@@ -12,7 +10,7 @@ export default function Buscador({ productos })
     p.title.toLowerCase().includes(busqueda.toLowerCase())
   );
 
-
+  
   return (
     <>
       <div className="input-group mb-3">
@@ -36,5 +34,3 @@ export default function Buscador({ productos })
     </>
   );
 }
-
-
